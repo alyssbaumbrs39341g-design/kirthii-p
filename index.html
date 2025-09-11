@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kirthika | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Kirthika</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hello, I'm Kirthika</h2>
+    <p>Computer Science with Artificial Intelligence</p>
+    <p>Theeran Chinnamalai College of Arts and Science</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate Computer Science student with a specialization in Artificial Intelligence. I love building creative and smart solutions using technology.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Student Result Management System</h3>
+      <p>A simple web-based project to manage and display student results.</p>
+    </div>
+    <div class="project">
+      <h3>AI Chatbot (Mini Project)</h3>
+      <p>A basic AI chatbot using JavaScript for answering FAQs.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="return validateForm()">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="form-message"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Kirthika | Theeran Chinnamalai College</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
